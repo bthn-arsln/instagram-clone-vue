@@ -1,32 +1,32 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+	<div class="app">
+		<MasterHeader />
+		<main>
+			<Container>
+				<router-view class="main" />
+			</Container>
+		</main>
+	</div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import MasterHeader from '@/components/Header'
+import Container from '@/components/Container'
 
-#nav {
-  padding: 30px;
+export default {
+	name: 'App',
+	components: {
+		MasterHeader,
+		Container
+	}
 }
+</script>
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+<style lang="postcss" scope>
+.main {
+	padding: none;
+	@media (--t) {
+		padding-top: 32px;
+	}
 }
 </style>
