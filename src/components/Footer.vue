@@ -34,7 +34,7 @@ export default {
 
 <style lang="postcss" scoped>
 .footer {
-	margin-top: 32px;
+	margin-top: 16px;
 	& .nav {
 		& ul {
 			& li {

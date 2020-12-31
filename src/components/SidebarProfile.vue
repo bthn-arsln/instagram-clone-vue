@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import Avatar from '@/components/Avatar'
-import CustomText from '@/components/CustomText'
+import Avatar from './Avatar'
+import CustomText from './CustomText'
 
 export default {
 	name: 'Profile',

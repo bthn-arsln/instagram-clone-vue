@@ -1,12 +1,10 @@
 <template>
 	<header class="header">
 		<Container class="header-inner">
-			<router-link to="/" class="logo">
-				Instagram
-			</router-link>
+			<router-link to="/" class="logo"> Instagram </router-link>
 
 			<form class="search">
-				<input type="text" placeholder="Search" />
+				<input type="text" placeholder="Ara" />
 			</form>
 
 			<nav class="navigation">
@@ -102,6 +100,15 @@ export default {
 			border-radius: 4px;
 			padding-left: 20px;
 			padding-right: 20px;
+			outline: none;
+			&::placeholder {
+				text-align: center;
+			}
+			&:focus {
+				&::placeholder {
+					text-align: left;
+				}
+			}
 		}
 	}
 }

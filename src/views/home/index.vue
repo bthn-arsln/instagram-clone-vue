@@ -21,7 +21,7 @@
 			</article>
 		</div>
 		<div class="sidebar">
-			<Profile />
+			<SidebarProfile />
 			<Reccomended />
 			<Footer />
 		</div>
@@ -31,9 +31,9 @@
 <script>
 import Post from '@/components/content/Post'
 import Reccomended from '@/components/reccomended/Reccomended'
-import Profile from '@/components/Profile'
+import SidebarProfile from '@/components/SidebarProfile'
 import Footer from '@/components/Footer'
-import Story from '../../components/Story.vue'
+import Story from '../../components/Story'
 import story from '@/story.json'
 import post from '@/post.json'
 
@@ -42,7 +42,7 @@ export default {
 	components: {
 		Post,
 		Reccomended,
-		Profile,
+		SidebarProfile,
 		Footer,
 		Story
 	},
