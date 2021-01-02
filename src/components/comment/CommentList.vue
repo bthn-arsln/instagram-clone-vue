@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import CustomText from '@/components/CustomText'
+import CustomText from '../CustomText'
 import CommentBody from './CommentBody'
 
 export default {

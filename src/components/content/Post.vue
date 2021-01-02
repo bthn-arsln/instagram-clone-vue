@@ -25,9 +25,9 @@
 </template>
 
 <script>
-import CustomText from '@/components/CustomText'
-import CommentForm from './comment/CommentForm'
-import CommentList from './comment/CommentList'
+import CustomText from '../CustomText'
+import CommentForm from '../comment/CommentForm'
+import CommentList from '../comment/CommentList'
 import PostHeader from './PostHeader'
 import PostMedia from './PostMedia'
 import ActionButtons from './ActionButtons'

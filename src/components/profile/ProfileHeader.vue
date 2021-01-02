@@ -45,9 +45,9 @@
 </template>
 
 <script>
-import Avatar from './Avatar'
+import Avatar from '../Avatar'
 import IconCog from '@/icons/cog.svg'
-import CustomText from './CustomText'
+import CustomText from '../CustomText'
 
 export default {
 	name: 'ProfileHeader',
@@ -59,7 +59,7 @@ export default {
 	data() {
 		return {
 			image:
-				'https://instagram.fbtz1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67849459_2378171965772428_5792282402504048640_n.jpg?_nc_ht=instagram.fbtz1-2.fna.fbcdn.net&_nc_ohc=J_jz1pb8IxcAX_W41ax&tp=1&oh=2ce6f39fce7dfea24655604a30ccbc59&oe=5FF0903B'
+				'https://instagram.fsaw1-2.fna.fbcdn.net/v/t51.2885-19/s320x320/67849459_2378171965772428_5792282402504048640_n.jpg?_nc_ht=instagram.fsaw1-2.fna.fbcdn.net&_nc_ohc=S3cBaKr03GwAX-wPfJf&tp=1&oh=2513e2d8a2b4aa2ca40298ba423bc2e8&oe=601C01C3'
 		}
 	}
 }
@@ -109,6 +109,7 @@ export default {
 		}
 		& .info {
 			display: flex;
+			justify-content: stretch;
 			margin-bottom: 20px;
 			& .info-group {
 				flex-grow: 0.1;

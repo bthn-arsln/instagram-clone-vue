@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import Avatar from './Avatar'
-import CustomText from './CustomText'
+import Avatar from '../Avatar'
+import CustomText from '../CustomText'
 export default {
 	name: 'FirstReleased',
 	components: {
@@ -19,7 +19,7 @@ export default {
 	data() {
 		return {
 			image:
-				'https://instagram.fsaw1-1.fna.fbcdn.net/v/t51.12442-15/e35/c0.280.720.720a/s150x150/73470590_139682310765319_2026301125000392742_n.jpg?_nc_ht=instagram.fsaw1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=jzVvV0JqpUcAX9v9Be-&tp=1&oh=817ea028214cc1bfc1c2facafb5d478e&oe=5FF06BDA'
+				'https://instagram.fsaw1-1.fna.fbcdn.net/v/t51.12442-15/e35/c0.280.720.720a/s150x150/73470590_139682310765319_2026301125000392742_n.jpg?_nc_ht=instagram.fsaw1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=y3-dDTNMACsAX9lOs6Z&tp=1&oh=8a4ffd0aa4365972a9537e6ad8685d6f&oe=5FF30EDA'
 		}
 	}
 }

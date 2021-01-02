@@ -28,7 +28,7 @@ export default {
 	data() {
 		return {
 			image:
-				'https://instagram.fbtz1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67849459_2378171965772428_5792282402504048640_n.jpg?_nc_ht=instagram.fbtz1-2.fna.fbcdn.net&_nc_ohc=J_jz1pb8IxcAX_W41ax&tp=1&oh=2ce6f39fce7dfea24655604a30ccbc59&oe=5FF0903B'
+				'https://instagram.fsaw1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67849459_2378171965772428_5792282402504048640_n.jpg?_nc_ht=instagram.fsaw1-2.fna.fbcdn.net&_nc_ohc=S3cBaKr03GwAX-wPfJf&tp=1&oh=3d4fa5833ae09182d488a647b6236c5f&oe=601C11BB'
 		}
 	}
 }

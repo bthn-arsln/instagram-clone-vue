@@ -1,7 +1,9 @@
 <template>
 	<header class="header">
 		<Container class="header-inner">
-			<router-link to="/" class="logo"> Instagram </router-link>
+			<router-link to="/" class="logo"
+				><img :src="logo" width="35" height="35" alt="" /> Instagram
+			</router-link>
 
 			<form class="search">
 				<input type="text" placeholder="Ara" />
@@ -23,7 +25,7 @@
 				<router-link to="/profile">
 					<Avatar
 						size="26"
-						src="https://instagram.fbtz1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67849459_2378171965772428_5792282402504048640_n.jpg?_nc_ht=instagram.fbtz1-2.fna.fbcdn.net&_nc_ohc=J_jz1pb8IxcAX_W41ax&tp=1&oh=2ce6f39fce7dfea24655604a30ccbc59&oe=5FF0903B"
+						src="https://instagram.fsaw1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/67849459_2378171965772428_5792282402504048640_n.jpg?_nc_ht=instagram.fsaw1-2.fna.fbcdn.net&_nc_ohc=S3cBaKr03GwAX-wPfJf&tp=1&oh=3d4fa5833ae09182d488a647b6236c5f&oe=601C11BB"
 					/>
 				</router-link>
 			</nav>
@@ -41,6 +43,8 @@ import IconExploreFill from '@/icons/explore-fill.svg'
 import Container from './Container.vue'
 import Avatar from '@/components/Avatar'
 
+import logo from '@/assets/logo.png'
+
 export default {
 	name: 'Header',
 	components: {
@@ -52,6 +56,11 @@ export default {
 		IconExploreFill,
 		Container,
 		Avatar
+	},
+	data() {
+		return {
+			logo: logo
+		}
 	}
 }
 </script>

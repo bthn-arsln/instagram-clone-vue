@@ -21,7 +21,7 @@
 			</article>
 		</div>
 		<div class="sidebar">
-			<SidebarProfile />
+			<SidebarHeader />
 			<Reccomended />
 			<Footer />
 		</div>
@@ -31,9 +31,10 @@
 <script>
 import Post from '@/components/content/Post'
 import Reccomended from '@/components/reccomended/Reccomended'
-import SidebarProfile from '@/components/SidebarProfile'
+import SidebarHeader from '@/components/SidebarHeader'
 import Footer from '@/components/Footer'
-import Story from '../../components/Story'
+import Story from '@/components/Story'
+// json file
 import story from '@/story.json'
 import post from '@/post.json'
 
@@ -42,7 +43,7 @@ export default {
 	components: {
 		Post,
 		Reccomended,
-		SidebarProfile,
+		SidebarHeader,
 		Footer,
 		Story
 	},
